@@ -1,6 +1,3 @@
-はい、Anthropic Cookbookの README.md を日本語に翻訳します。
-
-```markdown
 # Anthropic Cookbook
 
 Anthropic Cookbookは、開発者がClaudeを使って開発するためのコードとガイドを提供します。自身のプロジェクトに簡単に統合できるコードスニペットを用意しています。
@@ -71,6 +68,4 @@ Anthropic Cookbookは、開発者コミュニティの貢献によって成り�
 
 - [AWS上のAnthropic](https://github.com/aws-samples/anthropic-on-aws)：AWS インフラストラクチャ上でClaudeを使用するための例とソリューションを探索します。
 - [AWSサンプル](https://github.com/aws-samples/)：AWSのコードサンプル集で、Claudeで使用するように適応できます。一部のサンプルはClaudeで最適に動作するように修正が必要な場合があります。
-```
 
-翻訳は、原文の意味を保ちながら、日本語として自然な表現になるように心がけました。リンクや技術用語は原文のまま残し、必要に応じて日本語の説明を加えています。
