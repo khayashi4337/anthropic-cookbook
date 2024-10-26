@@ -1,70 +1,76 @@
+はい、Anthropic Cookbookの README.md を日本語に翻訳します。
+
+```markdown
 # Anthropic Cookbook
 
-The Anthropic Cookbook provides code and guides designed to help developers build with Claude, offering copy-able code snippets that you can easily integrate into your own projects.
+Anthropic Cookbookは、開発者がClaudeを使って開発するためのコードとガイドを提供します。自身のプロジェクトに簡単に統合できるコードスニペットを用意しています。
 
-## Prerequisites
+## 前提条件
 
-To make the most of the examples in this cookbook, you'll need an Anthropic API key (sign up for free [here](https://www.anthropic.com)).
+このクックブックの例を最大限活用するには、Anthropic APIキーが必要です（[こちら](https://www.anthropic.com)から無料で登録できます）。
 
-While the code examples are primarily written in Python, the concepts can be adapted to any programming language that supports interaction with the Anthropic API.
+コード例は主にPythonで書かれていますが、基本的な考え方は、Anthropic APIとの連携をサポートする任意のプログラミング言語に応用できます。
 
-If you're new to working with the Anthropic API, we recommend starting with our [Anthropic API Fundamentals course](https://github.com/anthropics/courses/tree/master/anthropic_api_fundamentals) to get a solid foundation.
+Anthropic APIを初めて使用する場合は、基礎をしっかりと理解するために、[Anthropic API 基礎コース](https://github.com/anthropics/courses/tree/master/anthropic_api_fundamentals)から始めることをお勧めします。
 
-## Explore Further
+## さらに詳しく
 
-Looking for more resources to enhance your experience with Claude and AI assistants? Check out these helpful links:
+ClaudeやAIアシスタントの活用をさらに深めるために、以下の有用なリンクをご覧ください：
 
-- [Anthropic developer documentation](https://docs.anthropic.com/claude/docs/guide-to-anthropics-prompt-engineering-resources)
-- [Anthropic support docs](https://support.anthropic.com)
-- [Anthropic Discord community](https://www.anthropic.com/discord)
+- [Anthropic 開発者ドキュメント](https://docs.anthropic.com/claude/docs/guide-to-anthropics-prompt-engineering-resources)
+- [Anthropic サポートドキュメント](https://support.anthropic.com)
+- [Anthropic Discordコミュニティ](https://www.anthropic.com/discord)
 
-## Contributing
+## コントリビューション
 
-The Anthropic Cookbook thrives on the contributions of the developer community. We value your input, whether it's submitting an idea, fixing a typo, adding a new guide, or improving an existing one. By contributing, you help make this resource even more valuable for everyone.
+Anthropic Cookbookは、開発者コミュニティの貢献によって成り立っています。アイデアの提案、タイプミスの修正、新しいガイドの追加、既存のガイドの改善など、あらゆる形での貢献を歓迎します。皆様の貢献により、このリソースはより価値のあるものとなります。
 
-To avoid duplication of efforts, please review the existing issues and pull requests before contributing.
+作業の重複を避けるため、コントリビューションの前に既存のイシューとプルリクエストを確認してください。
 
-If you have ideas for new examples or guides, share them on the [issues page](https://github.com/anthropics/anthropic-cookbook/issues).
+新しい例やガイドのアイデアがある場合は、[issues ページ](https://github.com/anthropics/anthropic-cookbook/issues)で共有してください。
 
-## Table of recipes
+## レシピ一覧
 
-### Skills
-- [Citations](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/citations): Learn how to prompt Claude to cite sources in its responses.
-- [Classification](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/classification): Explore techniques for text and data classification using Claude.
-- [Retrieval Augmented Generation](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/retrieval_augmented_generation): Learn how to enhance Claude's responses with external knowledge.
-- [Summarization](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/summarization): Discover techniques for effective text summarization with Claude.
+### スキル
+- [引用](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/citations)：Claudeに回答の中で出典を引用させる方法を学びます。
+- [分類](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/classification)：Claudeを使用したテキストとデータの分類テクニックを探ります。
+- [検索拡張生成（RAG）](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/retrieval_augmented_generation)：外部知識でClaudeの回答を強化する方法を学びます。
+- [要約](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/summarization)：Claudeによる効果的なテキスト要約のテクニックを学びます。
 
-### Tool Use and Integration
-- [Tool use](https://github.com/anthropics/anthropic-cookbook/tree/main/tool_use): Learn how to integrate Claude with external tools and functions to extend its capabilities.
-  - [Customer service agent](https://github.com/anthropics/anthropic-cookbook/blob/main/tool_use/customer_service_agent.ipynb)
-  - [Calculator integration](https://github.com/anthropics/anthropic-cookbook/blob/main/tool_use/calculator_tool.ipynb)
-  - [SQL queries](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/how_to_make_sql_queries.ipynb)
+### ツールの使用と統合
+- [ツール使用](https://github.com/anthropics/anthropic-cookbook/tree/main/tool_use)：Claudeの機能を拡張するための外部ツールや機能との統合方法を学びます。
+  - [カスタマーサービスエージェント](https://github.com/anthropics/anthropic-cookbook/blob/main/tool_use/customer_service_agent.ipynb)
+  - [電卓との統合](https://github.com/anthropics/anthropic-cookbook/blob/main/tool_use/calculator_tool.ipynb)
+  - [SQLクエリ](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/how_to_make_sql_queries.ipynb)
 
-### Third-Party Integrations
-- [Retrieval augmented generation](https://github.com/anthropics/anthropic-cookbook/tree/main/third_party): Supplement Claude's knowledge with external data sources.
-  - [Vector databases (Pinecone)](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Pinecone/rag_using_pinecone.ipynb)
+### サードパーティ統合
+- [検索拡張生成](https://github.com/anthropics/anthropic-cookbook/tree/main/third_party)：外部データソースでClaudeの知識を補完します。
+  - [ベクトルデータベース（Pinecone）](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Pinecone/rag_using_pinecone.ipynb)
   - [Wikipedia](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb/)
-  - [Web pages](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/read_web_pages_with_haiku.ipynb)
-  - [Internet search (Brave)](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Brave/web_search_using_brave.ipynb)
-- [Embeddings with Voyage AI](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/VoyageAI/how_to_create_embeddings.md)
+  - [Webページ](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/read_web_pages_with_haiku.ipynb)
+  - [インターネット検索（Brave）](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Brave/web_search_using_brave.ipynb)
+- [Voyage AIによるエンベディング](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/VoyageAI/how_to_create_embeddings.md)
 
-### Multimodal Capabilities
-- [Vision with Claude](https://github.com/anthropics/anthropic-cookbook/tree/main/multimodal): 
-  - [Getting started with images](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/getting_started_with_vision.ipynb)
-  - [Best practices for vision](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/best_practices_for_vision.ipynb)
-  - [Interpreting charts and graphs](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/reading_charts_graphs_powerpoints.ipynb)
-  - [Extracting content from forms](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/how_to_transcribe_text.ipynb)
-- [Generate images with Claude](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/illustrated_responses.ipynb): Use Claude with Stable Diffusion for image generation.
+### マルチモーダル機能
+- [Claudeでのビジョン機能](https://github.com/anthropics/anthropic-cookbook/tree/main/multimodal)：
+  - [画像処理入門](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/getting_started_with_vision.ipynb)
+  - [ビジョン機能のベストプラクティス](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/best_practices_for_vision.ipynb)
+  - [チャートとグラフの解釈](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/reading_charts_graphs_powerpoints.ipynb)
+  - [フォームからのコンテンツ抽出](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/how_to_transcribe_text.ipynb)
+- [Claudeでの画像生成](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/illustrated_responses.ipynb)：画像生成のためにClaudeとStable Diffusionを使用します。
 
-### Advanced Techniques
-- [Sub-agents](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/using_sub_agents.ipynb): Learn how to use Haiku as a sub-agent in combination with Opus.
-- [Upload PDFs to Claude](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/pdf_upload_summarization.ipynb): Parse and pass PDFs as text to Claude.
-- [Automated evaluations](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/building_evals.ipynb): Use Claude to automate the prompt evaluation process.
-- [Enable JSON mode](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/how_to_enable_json_mode.ipynb): Ensure consistent JSON output from Claude.
-- [Create a moderation filter](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/building_moderation_filter.ipynb): Use Claude to create a content moderation filter for your application.
-- [Prompt caching](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/prompt_caching.ipynb): Learn techniques for efficient prompt caching with Claude.
+### 高度なテクニック
+- [サブエージェント](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/using_sub_agents.ipynb)：OpusとともにHaikuをサブエージェントとして使用する方法を学びます。
+- [PDFのClaudeへのアップロード](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/pdf_upload_summarization.ipynb)：PDFを解析してテキストとしてClaudeに渡します。
+- [自動評価](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/building_evals.ipynb)：Claudeを使用してプロンプト評価プロセスを自動化します。
+- [JSONモードの有効化](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/how_to_enable_json_mode.ipynb)：Claudeから一貫したJSON出力を確保します。
+- [モデレーションフィルターの作成](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/building_moderation_filter.ipynb)：アプリケーション用のコンテンツモデレーションフィルターをClaudeで作成します。
+- [プロンプトキャッシング](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/prompt_caching.ipynb)：Claudeでの効率的なプロンプトキャッシングのテクニックを学びます。
 
-## Additional Resources
+## 追加リソース
 
-- [Anthropic on AWS](https://github.com/aws-samples/anthropic-on-aws): Explore examples and solutions for using Claude on AWS infrastructure.
-- [AWS Samples](https://github.com/aws-samples/): A collection of code samples from AWS which can be adapted for use with Claude. Note that some samples may require modification to work optimally with Claude.
+- [AWS上のAnthropic](https://github.com/aws-samples/anthropic-on-aws)：AWS インフラストラクチャ上でClaudeを使用するための例とソリューションを探索します。
+- [AWSサンプル](https://github.com/aws-samples/)：AWSのコードサンプル集で、Claudeで使用するように適応できます。一部のサンプルはClaudeで最適に動作するように修正が必要な場合があります。
+```
+
+翻訳は、原文の意味を保ちながら、日本語として自然な表現になるように心がけました。リンクや技術用語は原文のまま残し、必要に応じて日本語の説明を加えています。
